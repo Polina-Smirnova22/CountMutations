@@ -1,0 +1,9 @@
+def CountMutations (x,y):
+    S=0
+    for i in range(len(x)):
+        if x[i] != y[i]:
+            S=S+1
+    print (S)
+CountMutations ("AAAA","AAAT")
+CountMutations ("AAAA","CCCT")
+CountMutations ("AAAA","AAAA")
